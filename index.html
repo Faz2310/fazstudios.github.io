@@ -3,53 +3,78 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FaZ Studios | Crafting Digital Adventures</title>
+    <title>FaZ Studios | About & Contact</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
     <style>
-        body { font-family: 'Poppins', sans-serif; }
-        .gradient-bg { background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%); }
+        body { font-family: 'Poppins', sans-serif; scroll-behavior: smooth; }
+        .gradient-bg { background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%); }
     </style>
 </head>
 <body class="gradient-bg text-white">
 
-    <nav class="flex justify-between items-center p-6 max-w-7xl mx-auto">
-        <h1 class="text-2xl font-bold tracking-tighter text-pink-500">FaZ STUDIOS</h1>
-        <div class="space-x-6 hidden md:block">
-            <a href="#games" class="hover:text-pink-400 transition">Games</a>
-            <a href="#about" class="hover:text-pink-400 transition">About</a>
-            <a href="mailto:contact@fazstudios.com" class="bg-pink-600 px-5 py-2 rounded-full font-bold hover:bg-pink-700 transition">Contact</a>
+    <nav class="fixed w-full z-50 bg-slate-900/80 backdrop-blur-md">
+        <div class="flex justify-between items-center p-6 max-w-7xl mx-auto">
+            <h1 class="text-2xl font-bold tracking-tighter text-pink-500">FaZ STUDIOS</h1>
+            <div class="space-x-8 hidden md:flex font-medium">
+                <a href="#about" class="hover:text-pink-400 transition">About</a>
+                <a href="#games" class="hover:text-pink-400 transition">Games</a>
+                <a href="#contact" class="hover:text-pink-400 transition">Contact</a>
+            </div>
         </div>
     </nav>
 
-    <header class="h-screen flex flex-col justify-center items-center text-center px-4">
-        <h2 class="text-5xl md:text-7xl font-bold mb-4 animate-pulse">Next-Gen Gaming <br><span class="text-pink-500">Starts Here.</span></h2>
-        <p class="text-gray-400 text-lg md:text-xl max-w-2xl">FaZ Studios is an independent game development house dedicated to creating addictive, high-quality mobile experiences. Currently developing <span class="text-white font-bold">Food Saga</span>.</p>
-        <a href="#games" class="mt-10 border-2 border-white px-8 py-3 rounded-full hover:bg-white hover:text-black transition duration-300">View Our Projects</a>
-    </header>
+    <section id="about" class="pt-32 pb-20 px-6 max-w-5xl mx-auto text-center">
+        <h2 class="text-4xl font-bold mb-8 text-pink-500">About FaZ Studios</h2>
+        <p class="text-xl text-gray-300 leading-relaxed mb-6">
+            Founded in 2025, FaZ Studios is a cutting-edge independent game development house focused on mobile innovation. 
+            We believe in "Fun First" mechanics, combined with polished aesthetics and high-performance engineering.All the Development for now is Handled by a Single Developer With a Dream.
+            Hoping to Grow This Into Something meaningful and trustworthy.
+        </p>
+        <p class="text-gray-400 italic">
+            Based in India, our mission is to create digital adventures that players return to every single day.
+        </p>
+        <h3 class="text-4xl font-bold mb-8 text-pink-500">About ME</h2>
+        <p class="text-xl text-gray-300 leading-relaxed mb-6">
+            My Name Is Farhan Ahmed and I'm The Sole Developer Of all The Games that Are Built Throught FaZ Studios.Game Development Has Been My Passion for About 5 Years Now and I have Been Working On games with Blood,Sweat and Tears.
+            Hoping to create something that will dazzle the minds of the Gamers.Please Look Forward To more games From Me.
+            Peace Out
+        </p>
+        <p class="text-gray-400 italic">
+            Based in India, our mission is to create digital adventures that players return to every single day.
+        </p>
+    </section>
 
     <section id="games" class="py-20 px-6 max-w-7xl mx-auto">
-        <h3 class="text-3xl font-bold mb-12 border-l-4 border-pink-500 pl-4">CURRENT PROJECTS</h3>
-        <div class="grid md:grid-cols-2 gap-8">
-            <div class="bg-gray-800 p-8 rounded-2xl hover:scale-105 transition transform duration-300">
-                <div class="h-48 bg-pink-900 rounded-xl mb-6 flex items-center justify-center text-4xl">🍕</div>
+        <h3 class="text-3xl font-bold mb-12 border-l-4 border-pink-500 pl-4">Our Games</h3>
+        <div class="grid md:grid-cols-1 gap-8">
+            <div class="bg-slate-800 p-8 rounded-2xl border border-slate-700">
                 <h4 class="text-2xl font-bold mb-2">Food Saga</h4>
-                <p class="text-gray-400">A fast-paced match-3 puzzle adventure. Use Drills and Blenders to clear challenging levels and collect stars.</p>
-                <div class="mt-4 flex space-x-2">
-                    <span class="text-xs bg-gray-700 px-2 py-1 rounded">Mobile</span>
-                    <span class="text-xs bg-gray-700 px-2 py-1 rounded">Puzzle</span>
-                </div>
-            </div>
-            <div class="bg-gray-800 p-8 rounded-2xl opacity-50 border-2 border-dashed border-gray-600 flex flex-col justify-center items-center">
-                <p class="text-xl font-bold">New Project Coming Soon</p>
+                <p class="text-gray-400">Our flagship match-3 puzzle adventure. Currently in active development for Android and iOS.</p>
             </div>
         </div>
     </section>
 
-    <footer class="py-10 text-center text-gray-500 border-t border-gray-800">
-        <p>&copy; 2026 FaZ Studios. All Rights Reserved.</p>
-        <p class="text-xs mt-2 italic">Created by GitHub Pages</p>
+    <section id="contact" class="py-20 px-6 max-w-3xl mx-auto">
+    <div class="bg-slate-800 p-10 rounded-3xl shadow-2xl border border-slate-700 text-center">
+        <h2 class="text-3xl font-bold mb-4">Get in Touch</h2>
+        <p class="text-gray-400 mb-8">Have a bug to report in Food Saga? Click below to send us an email directly.</p>
+        
+        <a href="mailto:fazstudios23@gmail.com?subject=Food%20Saga%20Inquiry" 
+           class="inline-block bg-pink-600 px-10 py-4 rounded-xl font-bold hover:bg-pink-700 transition duration-300 shadow-lg shadow-pink-600/20">
+           Email FaZ Studios
+        </a>
+        
+        <p class="mt-6 text-sm text-gray-500">Expect a response within 24-48 hours.</p>
+    </div>
+</section>
+
+    <footer class="py-10 text-center text-gray-500">
+        <p>&copy; 2026 FaZ Studios. | <a href="/app-ads.txt" class="underline hover:text-white">AdMob Verified</a></p>
     </footer>
+    <footer class="py-10 text-center text-gray-500">
+    <p>&copy; 2026 FaZ Studios | <a href="privacy.html" class="underline hover:text-white">Privacy Policy</a></p>
+</foote
 
 </body>
 </html>
